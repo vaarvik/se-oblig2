@@ -19,7 +19,11 @@ public class When_it_is_leap_year {
                 of(false, 300),
                 of(true, 400),
                 of(false, 1000),
-                of(true, 2004)
+                of(true, 2004),
+                of(false, 4000),
+                of(true, 8004),
+                of(true, 7048),
+                of(false, 12000)
         );
     }
 
